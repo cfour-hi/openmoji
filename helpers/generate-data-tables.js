@@ -35,30 +35,58 @@ const writeJson = (data, filePath) => {
 // create an empty array to hold the emoji definitions
 let emojis = [];
 
-// add emoji with skintones to list
-_.each(emojibaseData, e => {
-  if (e.skins) {
-    e['skintone_base_emoji'] = e.emoji;
-    e['skintone_base_hexcode'] = e.hexcode;
-    e['skintone_combination'] = 'single';
-    // add skintone_base_emoji prop
-    const skintones = _.map(e.skins, (s) => {
-      s['skintone_base_emoji'] = e.emoji;
-      s['skintone_base_hexcode'] = e.hexcode;
-      if (_.isArray(s.tone)) {
-        // console.warn(`Warning: ${s.emoji} ${s.hexcode} is a multi skin tones combination`);
-        s.tone = s.tone.join(',');
-        s['skintone_combination'] = 'multiple';
-      } else {
-        s['skintone_combination'] = 'single';
-      }
-      return s;
-    })
-    emojis = [...emojis, ...skintones];
-  }
-  emojis = [...emojis, e];
-});
+// flattens a list of raw, emojibase-shaped emoji entries, expanding any
+// skin tone variants (`.skins`) into standalone entries alongside their base
+const flattenEmojiList = (list) => {
+  let flattened = [];
+  _.each(list, e => {
+    if (e.skins) {
+      e['skintone_base_emoji'] = e.emoji;
+      e['skintone_base_hexcode'] = e.hexcode;
+      e['skintone_combination'] = 'single';
+      // add skintone_base_emoji prop
+      const skintones = _.map(e.skins, (s) => {
+        s['skintone_base_emoji'] = e.emoji;
+        s['skintone_base_hexcode'] = e.hexcode;
+        if (_.isArray(s.tone)) {
+          // console.warn(`Warning: ${s.emoji} ${s.hexcode} is a multi skin tones combination`);
+          s.tone = s.tone.join(',');
+          s['skintone_combination'] = 'multiple';
+        } else {
+          s['skintone_combination'] = 'single';
+        }
+        return s;
+      })
+      flattened = [...flattened, ...skintones];
+    }
+    flattened = [...flattened, e];
+  });
+  return flattened;
+}
 
+// add emoji with skintones to list
+emojis = flattenEmojiList(emojibaseData);
+
+// TEMPORARY: emojibase-data (see package.json devDependencies) can lag
+// months behind a new Unicode Emoji version. data/unicode-draft-overrides.json,
+// if present, supplements the emojibase-derived list above with hand-authored
+// entries for hexcodes emojibase-data doesn't know about yet, so OpenMoji can
+// ship a new Unicode version without waiting on upstream.
+// Delete this block and data/unicode-draft-overrides.json once emojibase-data
+// ships support for those hexcodes.
+const unicodeDraftOverridesPath = './data/unicode-draft-overrides.json';
+if (fs.existsSync(unicodeDraftOverridesPath)) {
+  const overrides = JSON.parse(fs.readFileSync(unicodeDraftOverridesPath, 'utf8'));
+  const overrideEmojis = flattenEmojiList(overrides.emojis);
+  console.log('='.repeat(72));
+  console.log(`⚠️  ${unicodeDraftOverridesPath} found — using it.`);
+  console.log(`⚠️  ${overrideEmojis.length} emoji entries (incl. skin tones) are coming from this`);
+  console.log(`⚠️  TEMPORARY file, not from emojibase-data: ${_.map(overrides.emojis, 'hexcode').join(', ')}`);
+  console.log(`⚠️  Delete it (and its loader block in helpers/generate-data-tables.js) once`);
+  console.log(`⚠️  emojibase-data ships support for these hexcodes.`);
+  console.log('='.repeat(72));
+  emojis = [...emojis, ...overrideEmojis];
+}
 
 // load custom meta informations extending the unicode definitions
 const enhancements = arrayToEmojiDict( loadCsv('./data/enhancements-emoji-unicode-data.csv'), 'emoji');
@@ -75,8 +103,10 @@ emojis = _.map(emojis, e => {
   return {
     emoji: e.emoji,
     hexcode: e.hexcode,
-    group: groups[e.group],
-    subgroups: subgroups[e.subgroup],
+    // real emojibase-data entries key group/subgroup by number; entries from
+    // data/unicode-draft-overrides.json already carry the resolved slug string
+    group: groups[e.group] !== undefined ? groups[e.group] : e.group,
+    subgroups: subgroups[e.subgroup] !== undefined ? subgroups[e.subgroup] : e.subgroup,
     annotation: e.label,
     tags: e.tags ? e.tags.join(', ') : '',
     openmoji_tags: enhancements[e.hexcode] ? enhancements[e.hexcode]['openmoji_tags'] : '',

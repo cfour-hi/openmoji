@@ -1,0 +1,199 @@
+{
+  "_comment": "TEMPORARY: emojibase-data (see package.json) has not yet been updated for this Unicode Emoji version. These entries supplement generate-data-tables.js's emojibase-derived emoji list so OpenMoji can ship them before upstream catches up. Delete this file (and its loader block in helpers/generate-data-tables.js) once emojibase-data ships support for these hexcodes. Source: https://unicode.org/Public/draft/emoji/emoji-test.txt (Unicode Emoji 18.0, beta as of 2026-04-30).",
+  "emojis": [
+    {
+      "emoji": "🫫",
+      "hexcode": "1FAEB",
+      "group": "smileys-emotion",
+      "subgroup": "face-smiling",
+      "label": "cracking face",
+      "tags": [],
+      "version": 18,
+      "order": 99001
+    },
+    {
+      "emoji": "🪋",
+      "hexcode": "1FA8B",
+      "group": "travel-places",
+      "subgroup": "sky-weather",
+      "label": "meteor",
+      "tags": [],
+      "version": 18,
+      "order": 99002
+    },
+    {
+      "emoji": "🪌",
+      "hexcode": "1FA8C",
+      "group": "objects",
+      "subgroup": "writing",
+      "label": "eraser",
+      "tags": [],
+      "version": 18,
+      "order": 99003
+    },
+    {
+      "emoji": "🪍",
+      "hexcode": "1FA8D",
+      "group": "objects",
+      "subgroup": "tool",
+      "label": "net with handle",
+      "tags": [],
+      "version": 18,
+      "order": 99004
+    },
+    {
+      "emoji": "🫌",
+      "hexcode": "1FACC",
+      "group": "animals-nature",
+      "subgroup": "animal-bug",
+      "label": "monarch butterfly",
+      "tags": [],
+      "version": 18,
+      "order": 99005
+    },
+    {
+      "emoji": "🫝",
+      "hexcode": "1FADD",
+      "group": "food-drink",
+      "subgroup": "food-vegetable",
+      "label": "pickle",
+      "tags": [],
+      "version": 18,
+      "order": 99006
+    },
+    {
+      "emoji": "🛙",
+      "hexcode": "1F6D9",
+      "group": "travel-places",
+      "subgroup": "transport-water",
+      "label": "lighthouse",
+      "tags": [],
+      "version": 18,
+      "order": 99007
+    },
+    {
+      "emoji": "🫹",
+      "hexcode": "1FAF9",
+      "group": "people-body",
+      "subgroup": "hand-fingers-closed",
+      "label": "leftwards thumb sign",
+      "tags": [],
+      "version": 18,
+      "order": 99008,
+      "skins": [
+        {
+          "emoji": "🫹🏻",
+          "hexcode": "1FAF9-1F3FB",
+          "group": "people-body",
+          "subgroup": "hand-fingers-closed",
+          "label": "leftwards thumb sign: light skin tone",
+          "version": 18,
+          "order": 99009,
+          "tone": 1
+        },
+        {
+          "emoji": "🫹🏼",
+          "hexcode": "1FAF9-1F3FC",
+          "group": "people-body",
+          "subgroup": "hand-fingers-closed",
+          "label": "leftwards thumb sign: medium-light skin tone",
+          "version": 18,
+          "order": 99010,
+          "tone": 2
+        },
+        {
+          "emoji": "🫹🏽",
+          "hexcode": "1FAF9-1F3FD",
+          "group": "people-body",
+          "subgroup": "hand-fingers-closed",
+          "label": "leftwards thumb sign: medium skin tone",
+          "version": 18,
+          "order": 99011,
+          "tone": 3
+        },
+        {
+          "emoji": "🫹🏾",
+          "hexcode": "1FAF9-1F3FE",
+          "group": "people-body",
+          "subgroup": "hand-fingers-closed",
+          "label": "leftwards thumb sign: medium-dark skin tone",
+          "version": 18,
+          "order": 99012,
+          "tone": 4
+        },
+        {
+          "emoji": "🫹🏿",
+          "hexcode": "1FAF9-1F3FF",
+          "group": "people-body",
+          "subgroup": "hand-fingers-closed",
+          "label": "leftwards thumb sign: dark skin tone",
+          "version": 18,
+          "order": 99013,
+          "tone": 5
+        }
+      ]
+    },
+    {
+      "emoji": "🫺",
+      "hexcode": "1FAFA",
+      "group": "people-body",
+      "subgroup": "hand-fingers-closed",
+      "label": "rightwards thumb sign",
+      "tags": [],
+      "version": 18,
+      "order": 99014,
+      "skins": [
+        {
+          "emoji": "🫺🏻",
+          "hexcode": "1FAFA-1F3FB",
+          "group": "people-body",
+          "subgroup": "hand-fingers-closed",
+          "label": "rightwards thumb sign: light skin tone",
+          "version": 18,
+          "order": 99015,
+          "tone": 1
+        },
+        {
+          "emoji": "🫺🏼",
+          "hexcode": "1FAFA-1F3FC",
+          "group": "people-body",
+          "subgroup": "hand-fingers-closed",
+          "label": "rightwards thumb sign: medium-light skin tone",
+          "version": 18,
+          "order": 99016,
+          "tone": 2
+        },
+        {
+          "emoji": "🫺🏽",
+          "hexcode": "1FAFA-1F3FD",
+          "group": "people-body",
+          "subgroup": "hand-fingers-closed",
+          "label": "rightwards thumb sign: medium skin tone",
+          "version": 18,
+          "order": 99017,
+          "tone": 3
+        },
+        {
+          "emoji": "🫺🏾",
+          "hexcode": "1FAFA-1F3FE",
+          "group": "people-body",
+          "subgroup": "hand-fingers-closed",
+          "label": "rightwards thumb sign: medium-dark skin tone",
+          "version": 18,
+          "order": 99018,
+          "tone": 4
+        },
+        {
+          "emoji": "🫺🏿",
+          "hexcode": "1FAFA-1F3FF",
+          "group": "people-body",
+          "subgroup": "hand-fingers-closed",
+          "label": "rightwards thumb sign: dark skin tone",
+          "version": 18,
+          "order": 99019,
+          "tone": 5
+        }
+      ]
+    }
+  ]
+}
