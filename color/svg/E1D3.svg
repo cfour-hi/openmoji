@@ -1,20 +1,42 @@
 <svg id="emoji" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
   <g id="color">
-    <polygon fill="#5C9E31" stroke="none" points="8,56 63,56 63,51 67,46.9042 67,28.0005 63,24 63,16 8,16"/>
-    <polyline fill="#5C9E31" stroke="none" points="63,56 63,51 67,46.9042 67,28.0005 63,24 63,16 56.1671,16"/>
-    <polygon fill="#B1CC33" stroke="none" points="31.333,56 8,56 8,16 56.1671,16"/>
-    <rect x="6" y="22" width="2" height="9" fill="#B1CC33" stroke="none"/>
-    <rect x="29" y="46" width="28" height="4" fill="#B1CC33" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-    <rect x="24" y="22" width="33" height="4" fill="#B1CC33" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polyline fill="#92d3f5" points="12.9899 20.231 12.9899 16 60.9394 16 60.9394 24.2224 64 27.049 64 50.2561 60.9394 53.3063 60.9394 56 12.9899 56 12.9899 52.4289"/>
+    <rect x="10" y="47" width="9" height="5" fill="#3f3f3f"/>
+    <rect x="30" y="43" width="28.5" height="3" fill="#3f3f3f"/>
+    <rect x="7" y="23" width="13" height="8" fill="#d0cfce"/>
   </g>
-  <g id="hair"/>
-  <g id="skin"/>
-  <g id="skin-shadow"/>
   <g id="line">
-    <polyline fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="8,22 8,16 63,16 63,24 67,28.0005 67,46.9042 63,51 63,56 8,56 8,31"/>
-    <rect x="29" y="46" width="28" height="4" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-    <rect x="24" y="22" width="33" height="4" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-    <polyline fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="18,30 18,22 5,22 5,31 11.1252,31"/>
-    <polyline fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="14,50 18,50 18,46 14,46"/>
+    <line x1="14" x2="14" y1="46.6491" y2="33.8966" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="14 20.231 14 16 61 16 61 24.2224 64 27.049 64 50.2561 61 53.3063 61 56 14 56 14 52.4289"/>
+    <polyline fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="7 23 20 23 20 31 7 31"/>
+    <rect x="10" y="47" width="9" height="5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="30" y="43" width="28.5" height="3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="27" cy="20" r="1"/>
+    <circle cx="18" cy="20" r="1"/>
+    <circle cx="30" cy="20" r="1"/>
+    <circle cx="33" cy="20" r="1"/>
+    <circle cx="36" cy="20" r="1"/>
+    <circle cx="39" cy="20" r="1"/>
+    <circle cx="45" cy="20" r="1"/>
+    <circle cx="48" cy="20" r="1"/>
+    <circle cx="51" cy="20" r="1"/>
+    <circle cx="54" cy="20" r="1"/>
+    <circle cx="57" cy="20" r="1"/>
+    <circle cx="27" cy="52" r="1"/>
+    <circle cx="30" cy="52" r="1"/>
+    <circle cx="33" cy="52" r="1"/>
+    <circle cx="36" cy="52" r="1"/>
+    <circle cx="39" cy="52" r="1"/>
+    <circle cx="42" cy="52" r="1"/>
+    <circle cx="48" cy="52" r="1"/>
+    <circle cx="51" cy="52" r="1"/>
+    <circle cx="54" cy="52" r="1"/>
+    <circle cx="57" cy="52" r="1"/>
+    <circle cx="57" cy="31" r="1"/>
+    <circle cx="54" cy="31" r="1"/>
+    <circle cx="27" cy="31" r="1"/>
+    <circle cx="21" cy="40" r="1"/>
+    <circle cx="57" cy="34" r="1"/>
+    <circle cx="54" cy="34" r="1"/>
   </g>
 </svg>

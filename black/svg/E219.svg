@@ -1,0 +1,18 @@
+<svg id="emoji" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <g id="line">
+    <g id="line-2">
+      <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.2681,45.6782c2.68,0,8.0399,2.68,13.3998,2.68s8.9332-2.68,14.2931-2.68,9.8265,2.68,14.2931,2.68,6.2533-2.68,13.3998-2.68"/>
+    </g>
+    <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M54.453,47.3529l-4.953-4.953,3.5-3.5,2-2-3-3-2,2-3.5,3.5-4-4,3.5-3.5,2-2-3-3-2,2-3.5,3.5-10.5-10.5-4,4-5.81-5.81c-.81-.81-2.19-.24-2.19.9v8.06c0,3.1,1.23,6.08,3.43,8.28l8.9346,8.9346"/>
+    <line x1="25" x2="40.4672" y1="25.8999" y2="41.3671" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="39" x2="40.5" y1="31.8999" y2="33.3999" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="46" x2="47.5" y1="38.8999" y2="40.3999" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="30" cy="26.8999" r="1"/>
+    <circle cx="33" cy="29.8999" r="1"/>
+    <circle cx="36" cy="32.8999" r="1"/>
+    <circle cx="39" cy="35.8999" r="1"/>
+    <circle cx="42" cy="38.8999" r="1"/>
+    <circle cx="45" cy="41.8999" r="1"/>
+    <circle cx="48" cy="44.8999" r="1"/>
+  </g>
+</svg>

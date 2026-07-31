@@ -1,16 +1,19 @@
 <svg id="emoji" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
   <g id="color">
-    <rect x="13.3528" y="8.1195" width="44.8785" height="55.4381" fill="#D0CFCE" stroke="none"/>
-    <polygon fill="#FFFFFF" stroke="none" points="58.2313,25.7465 40.6043,8.1195 19.9355,8.1195 19.9142,8.1407 58.2313,46.4578"/>
-    <rect x="17.8806" y="13.0368" width="36.1591" height="41.4387" fill="#3F3F3F" stroke="none"/>
-    <polygon fill="#9B9B9A" stroke="none" points="54.0397,42.2662 54.0397,21.5549 45.5216,13.0368 24.8103,13.0368"/>
+    <g id="color-2">
+      <rect x="16.7933" y="11.8198" rx="2.4805" ry="2.4805" width="38.195" height="48.3057" fill="#d0cfce"/>
+      <rect x="19.466" y="14.6391" width="33.1357" height="42.4731" fill="#3f3f3f"/>
+    </g>
   </g>
-  <g id="hair"/>
-  <g id="skin"/>
-  <g id="skin-shadow"/>
+  <g id="skin-shadow">
+    <polygon fill="#fff" points="39.99 11.82 42.74 14.64 25.11 14.64 22.38 11.84 22.4 11.82 39.99 11.82"/>
+    <polygon fill="#fff" points="54.99 27.18 54.99 45.23 52.6 42.78 52.6 24.73 54.99 27.18"/>
+    <polygon fill="#9b9b9a" points="52.6 24.73 52.6 42.78 25.11 14.64 42.74 14.64 52.6 24.73"/>
+  </g>
   <g id="line">
-    <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M13.4698,62.5391V9.1669c0-0.55,0.45-1,1-1h43.0444c0.55,0,1,0.45,1,1v53.3722c0,0.55-0.45,1-1,1H14.4698 C13.9198,63.5391,13.4698,63.0891,13.4698,62.5391z"/>
-    <circle cx="35.992" cy="59.0842" r="2" fill="#000000" stroke="none"/>
-    <rect x="17.8806" y="13.0368" width="36.1591" height="41.4387" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <g id="line-2">
+      <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.8929,57.5231V14.4474c0-1.4224,1.1367-2.5863,2.5261-2.5863h33.284c1.3894,0,2.5261,1.1638,2.5261,2.5863v43.0757c0,1.4224-1.1367,2.5863-2.5261,2.5863H19.419c-1.3894,0-2.5261-1.1638-2.5261-2.5863Z"/>
+    </g>
+    <polygon fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="33.9333 16.4945 38.1887 16.4945 38.1887 16.4945 33.9333 16.4945"/>
   </g>
 </svg>

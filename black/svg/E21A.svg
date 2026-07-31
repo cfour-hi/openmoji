@@ -1,0 +1,14 @@
+<svg id="emoji" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <g id="line">
+    <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M24.8278,40.4996c.7349-.3297,1.5264-.4994,2.3272-.4994h27.7666c2.0634,0,3.9195.8291,5.2668,2.1858,1.4698,1.4605,2.3178,3.5051,2.167,5.7758-.2544,3.9572-3.7216,6.9439-7.6883,6.9439h-27.5121c-.8008,0-1.5923-.1695-2.3272-.4993l-5.7945-2.6099-4.711-2.1199-4.9465-2.2236,4.9465-2.2236,4.711-2.1199"/>
+    <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M51.5484,40.0002h-22.9142l3.4767-2.7889c2.4403-1.9409,5.4647-3.0057,8.5834-3.0057h4.287c3.3825,0,6.162,2.5251,6.5671,5.7945Z"/>
+    <line x1="10.5535" x2="10.5535" y1="43.6936" y2="51.2312" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polygon fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="19.0332 51.7965 19.0332 54.0578 14.3223 55 14.3223 49.6766 19.0332 51.7965"/>
+    <polygon fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="19.0332 40.8671 19.0332 43.1095 14.3223 45.2294 14.3223 39.9249 19.0332 40.8671"/>
+    <line x1="53.8945" x2="25.6286" y1="43.6936" y2="43.6936" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="39.7616" x2="39.7616" y1="34.241" y2="30.5029" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="43.6408 33.999 43.6408 27.6763 46.3569 27.6763"/>
+    <circle cx="45.4147" cy="37.0983" r="0.9422"/>
+    <circle cx="41.646" cy="37.0983" r="0.9422"/>
+  </g>
+</svg>
