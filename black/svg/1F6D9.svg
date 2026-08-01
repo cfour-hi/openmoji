@@ -1,13 +1,20 @@
-<svg id="emoji" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+<svg id="emoji" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g id="line-supplement">
+    <g>
+      <line x1="43.26" x2="60.95" y1="17.36" y2="10.71" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="60.97" x2="45.33" y1="28.6" y2="22.71" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="45.33" x2="61.89" y1="19.65" y2="18.52" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
   <g id="line">
-    <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M40.5,15.8999c0,.1699-.01.34-.03.5h-8.9399c-.02-.16-.03-.3301-.03-.5,0-2.49,2.01-4.5,4.5-4.5s4.5,2.01,4.5,4.5Z"/>
-    <polyline fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="37 22.8999 29.5 22.8999 27.6 50.8999 44.4 50.8999 42.5 22.8999 40.5 22.8999 40.5 16.3999 31.5 16.3999 31.5 22.8999 37 22.8999"/>
-    <polyline fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="26 53.4185 26 50.8999 46 50.8999 46 53.5218"/>
-    <path d="M35.925,28.5137c0,1.1-.9,2-2,2s-2-.9-2-2,.9-2,2-2,2,.9,2,2"/>
-    <path d="M35.925,36.834c0,1.1-.9,2-2,2s-2-.9-2-2,.9-2,2-2,2,.9,2,2"/>
-    <path d="M35.925,44.8403c0-1.1-.9-2-2-2s-2,.9-2,2v5.0597h4.075v-5"/>
+    <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M40.5,15.9c0,.17,0,.34-.03.5h-8.94c-.02-.16-.03-.33-.03-.5,0-2.49,2.01-4.5,4.5-4.5s4.5,2.01,4.5,4.5h0Z"/>
+    <polyline fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="37 22.9 29.5 22.9 27.6 50.9 44.4 50.9 42.5 22.9 40.5 22.9 40.5 16.4 31.5 16.4 31.5 22.9 37 22.9"/>
+    <polyline fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="26 53.42 26 50.9 46 50.9 46 53.52"/>
+    <path d="M35.92,28.51c0,1.1-.9,2-2,2s-2-.9-2-2,.9-2,2-2,2,.9,2,2"/>
+    <path d="M35.92,36.83c0,1.1-.9,2-2,2s-2-.9-2-2,.9-2,2-2,2,.9,2,2"/>
+    <path d="M35.92,44.84c0-1.1-.9-2-2-2s-2,.9-2,2v5.06h4.08v-5"/>
     <g id="line-2">
-      <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.1188,54.9249c2.68,0,8.0399,2.68,13.3998,2.68s8.9332-2.68,14.2931-2.68,9.8265,2.68,14.2931,2.68,6.2533-2.68,13.3998-2.68"/>
+      <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.12,54.92c2.68,0,8.04,2.68,13.4,2.68s8.93-2.68,14.29-2.68,9.83,2.68,14.29,2.68,6.25-2.68,13.4-2.68"/>
     </g>
   </g>
 </svg>
