@@ -5,9 +5,41 @@
 --------------------------------------------------------------------------------
 OpenMoji 18.0 - XX XXX 2026
 
+New:
+  + Emoji 18.0 (beta): 1FA8B, 1FA8C, 1FA8D, 1FACC, 1FADD, 1FAEB, 1FAF9
+    and 1FAFA by Mark-Jonathan Freyer
+  + 13 extras-unicode transport-and-map-symbols (1F6C6 to 1F6F2)
+    by Mark-Jonathan Freyer
+    triangle with rounded corners, prohibited sign, circled information
+    source, boys symbol, girls symbol, stupa, pagoda, up-pointing military
+    airplane, up-pointing airplane, up-pointing small airplane,
+    northeast-pointing airplane, oncoming fire engine, diesel locomotive
+  + 38 extras-openmoji (food-drink, objects, people, technology,
+    travel-places) by Mark-Jonathan Freyer, E165 pistol by Hilda Kalyoncu
+    food-drink: beer bottle, pepper, pepper mill, salt mill
+    objects: sneaker, sneaker high, 3d printer, 3d printer low, snorkling,
+    ventilator, bicycle helmet, vr headset, ulmer hocker, adilette,
+    football figure white, football figure black, rubber duck,
+    rubber duck in water, charging station, trash bin, desk lamp, crocs,
+    pistol
+    people: captain jack, darth vader, pirate male, pirate female,
+    pirate with sword, pirate with hook, boy standing, girl standing
+    technology: calculator
+    travel-places: HfG Schwäbisch Gmünd, cargo bike, titanic, submarine,
+    submarine under water, nessy
+
 Improvements:
   * Update blue color of Ukrainian flag by @asilichenko #653
   * Update stroke width in Bluesky logo by @nataliakeniganti #661
+  * redesign laptop 1F4BB, tablet E1CC, water pistol 1F52B, arduino E1D3
+    by Mark-Jonathan Freyer
+  * Emoji 18.0 changes
+    Moved extras-unicode/lighthouse 1F6D9 > travel-places
+    by Mark-Jonathan Freyer
+
+Tech:
+  * Add temporary override mechanism (data/unicode-draft-overrides.json)
+    so releases aren't blocked on emojibase-data
 
 
 --------------------------------------------------------------------------------
