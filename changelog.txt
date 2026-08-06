@@ -15,13 +15,13 @@ New:
     airplane, up-pointing airplane, up-pointing small airplane,
     northeast-pointing airplane, oncoming fire engine, diesel locomotive
   + 38 extras-openmoji (food-drink, objects, people, technology,
-    travel-places) by Mark-Jonathan Freyer, E165 pistol by Hilda Kalyoncu
+    travel-places) by Mark-Jonathan Freyer
     food-drink: beer bottle, pepper, pepper mill, salt mill
     objects: sneaker, sneaker high, 3d printer, 3d printer low, snorkling,
     ventilator, bicycle helmet, vr headset, ulmer hocker, adilette,
     football figure white, football figure black, rubber duck,
     rubber duck in water, charging station, trash bin, desk lamp, crocs,
-    pistol
+    water pistol
     people: captain jack, darth vader, pirate male, pirate female,
     pirate with sword, pirate with hook, boy standing, girl standing
     technology: calculator
@@ -31,8 +31,7 @@ New:
 Improvements:
   * Update blue color of Ukrainian flag by @asilichenko #653
   * Update stroke width in Bluesky logo by @nataliakeniganti #661
-  * redesign laptop 1F4BB, tablet E1CC, water pistol 1F52B, arduino E1D3
-    by Mark-Jonathan Freyer
+  * redesign laptop 1F4BB, tablet E1CC, arduino E1D3 by Mark-Jonathan Freyer
   * Emoji 18.0 changes
     Moved extras-unicode/lighthouse 1F6D9 > travel-places
     by Mark-Jonathan Freyer
