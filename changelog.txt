@@ -35,6 +35,7 @@ Improvements:
   * Emoji 18.0 changes
     Moved extras-unicode/lighthouse 1F6D9 > travel-places
     by Mark-Jonathan Freyer
+  * Improved 😮‍💨😨 by @nataliakeniganti #664
 
 Tech:
   * Add temporary override mechanism (data/unicode-draft-overrides.json)
