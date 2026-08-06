@@ -3164,7 +3164,7 @@ emoji,hexcode,group,subgroups,annotation,tags,openmoji_tags,openmoji_author,open
 🎯,1F3AF,activities,game,bullseye,"bull, dart, direct, entertainment, game, hit, target","direct, hit, dart board, archery, bullseye, target, darts, game",Vanessa Boutzikoudi,2018-04-18,,,,,0.6,4291
 🪀,1FA80,activities,game,yo-yo,"fluctuate, toy",,Evelyn Soos,2019-05-04,,,,,12,4292
 🪁,1FA81,activities,game,kite,"fly, soar",,Evelyn Soos,2019-05-04,,,,,12,4293
-🔫,1F52B,activities,game,water pistol,"gun, handgun, pistol, revolver, tool, water, weapon","gun, weapon, pistol",Hilda Kalyoncu,2018-04-18,,,,,0.6,4294
+🔫,1F52B,activities,game,water pistol,"gun, handgun, pistol, revolver, tool, water, weapon",gun,Hilda Kalyoncu,2026-07-31,,,,,0.6,4294
 🎱,1F3B1,activities,game,pool 8 ball,"8, 8ball, ball, billiard, eight, game, pool","pool ball, 8 ball, black ball, cue ball, magic 8 ball, pool, snooker, billiards, game",Vanessa Boutzikoudi,2018-04-18,,,,,0.6,4295
 🔮,1F52E,activities,game,crystal ball,"ball, crystal, fairy, fairytale, fantasy, fortune, future, magic, tale, tool",mystery,Marius Schnabel,2018-04-18,,,,,0.6,4296
 🪄,1FA84,activities,game,magic wand,"magic, magician, wand, witch, wizard",,Liz Bravo,2020-03-11,,,,,13,4297
@@ -4254,7 +4254,7 @@ emoji,hexcode,group,subgroups,annotation,tags,openmoji_tags,openmoji_author,open
 ,E162,extras-openmoji,objects,trash bin,,,Mark-Jonathan Freyer,2026-07-31,,,,,,
 ,E163,extras-openmoji,objects,desk lamp,,,Mark-Jonathan Freyer,2026-07-31,,,,,,
 ,E164,extras-openmoji,objects,crocs,,,Mark-Jonathan Freyer,2026-07-31,,,,,,
-,E165,extras-openmoji,objects,pistol,,gun,Hilda Kalyoncu,2026-07-31,,,,,,
+,E165,extras-openmoji,objects,water pistol,,"gun, weapon, pistol",Hilda Kalyoncu,2018-04-18,,,,,,
 👨‍🪩,1F468-200D-1FAA9,extras-openmoji,people,dj man,,"party, disc jockey, Diskjockey, music, rave, techno",Liz Bravo,2022-07-01,,,,,,
 👩‍🪩,1F469-200D-1FAA9,extras-openmoji,people,dj woman,,"party, disc jockey, Diskjockey, music, rave, techno",Liz Bravo,2022-07-01,,,,,,
 🧑‍🪩,1F9D1-200D-1FAA9,extras-openmoji,people,dj,,"party, disc jockey, Diskjockey, music, rave, techno",Liz Bravo,2022-07-01,,,,,,
